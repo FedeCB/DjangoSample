@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: mysite
-        image: 
+        image: https://github.com/FedeCB/DjangoSample/tree/main/mysite
         ports:
         - containerPort: 8080
