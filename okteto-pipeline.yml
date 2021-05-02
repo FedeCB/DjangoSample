@@ -1,6 +1,6 @@
 icon: 
 deploy:
-  - okteto build -t okteto.dev/api:${OKTETO_GIT_COMMIT} api
-  - okteto build -t okteto.dev/frontend:${OKTETO_GIT_COMMIT} frontend
+  - okteto build -t okteto.dev/mysite:${OKTETO_GIT_COMMIT} mysite
+
   
 devs:
