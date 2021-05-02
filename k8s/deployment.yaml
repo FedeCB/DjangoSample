@@ -14,6 +14,6 @@ spec:
     spec:
       containers:
       - name: mysite
-        image: https://github.com/FedeCB/DjangoSample
+        image: https://github.com/FedeCB/DjangoSample/blob/main/mysite/polls/templates/polls/index.html: latest
         ports:
         - containerPort: 8080
