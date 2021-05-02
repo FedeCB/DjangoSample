@@ -1,5 +1,5 @@
 FROM golang:buster as builder
-WORKDIR /app
+WORKDIR /mysite
 ADD . .
 RUN go build -o mysite
 EXPOSE 8080
